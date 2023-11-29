@@ -1,7 +1,7 @@
 ## Тестовое задание
 
 Дано две таблицы, Employee(таблица с информацией о сотрудниках) и Vacation(таблица с информацией об отпусках для сотрудников)
-[Код для построения таблиц]() 
+[Код для построения таблиц](https://github.com/NadezhdaLimanova/test_task_sql/blob/main/test_task_sql.sql) 
 
 Задание:
 
@@ -17,4 +17,7 @@
 1. Правильными считаются решения без использования конструкций "group by", "distinct"
 2. Нет дублирования кода
 3. Решение должно быть без использования вспомогательных функций greatest(), least()
-4. Засчитываются решения БЕЗ использования OR, CASE, CTE    
+4. Засчитываются решения БЕЗ использования OR, CASE, CTE
+
+# Решение задания:
+[test_task_sql_solution](https://github.com/NadezhdaLimanova/test_task_sql/blob/main/test_task_sql_solution.sql)
