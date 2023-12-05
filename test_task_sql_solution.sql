@@ -11,8 +11,6 @@ from  Employee as e1
   join Vacation as v2 on e2.ID = v2.ID_Employee
 where (v1.DateBegin <= '2020-12-31' and v1.DateEnd >= '2020-01-01')
   and (v2.DateBegin <= '2020-12-31' and v2.DateEnd >= '2020-01-01')
-  and (
-    (v1.Dateend between v2.Datebegin and v2.Dateend ) 
-    or (v1.Datebegin between v2.Datebegin and v2.Dateend)
-  ) 
+  and 
+    (v1.Datebegin <= v2.DateEnd and v1.DateEnd >= v2.DateBegin)
 order by КодСотрудника1, КодСотрудника2;
